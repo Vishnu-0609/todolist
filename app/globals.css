@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#head
+{
+  background-color: black;
+  color: white;
+  padding: 0.5em 0;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 800;
+}
+
+input
+{
+  border: 2px solid black;
+  padding: 0.5em 0.5em;
+  margin: 1em;
+}
+
+button
+{
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  font-weight: 800;
+  padding: 0.5em 1em;
+}
+
+ul
+{
+  background-color: rgb(75, 75, 75);
+  color: antiquewhite;
+  font-size: 1.5em;
+  padding: 1em 1em;
+  font-weight: 500;
+  margin-top: 1em;
+}
+
+#tas
+{
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+#delete
+{
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  font-weight: 800;
+  padding: 5px 10px;
+}
+
+#no
+{
+  text-align: center;
+}
+
+#content
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
+}
